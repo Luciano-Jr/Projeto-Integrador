@@ -194,3 +194,52 @@ mark {
 .opiniao_cliente{
     background-color: #1818C8;
 }
+/* CSS for Customer Reviews Section */
+
+.customer-reviews {
+    background-color: #f9f9f9;
+    padding: 4em 2em;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.customer-reviews h1 {
+    font-size: 2.5em;
+    margin-bottom: 1em;
+    color: #2F3FCA;
+}
+
+.review-cards {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    flex-wrap: wrap;
+}
+
+.review-card {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 2em;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.review-card:hover {
+    transform: translateY(-10px);
+}
+
+.review-card p {
+    font-size: 1em;
+    color: #333333;
+    margin-bottom: 1em;
+}
+
+.review-card span {
+    font-weight: 700;
+    color: #2F3FCA;
+}
+.div_final{
+    margin: 4em;
+}
